@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Demo MFOGG Daily Sales Report</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="lblAcc">Area Sales Anda</string>
+    <string name="lblSubAcc">Pilih Nama SPG</string>
+    <string name="lblInputtoko">Pilih Nama Toko/Outlet</string>
+    <string name="lblInputabsen">Masukkan Keterangan Absensi</string>
+    <string name="btnlanjutsatu">Proses</string>
+    <string name="lblInputtanggal">Pilih Tanggal Efektif</string>
+    <string name="btnlanjutdua">Dashboard</string>
+
+    <string-array name="absen_type">
+        <item>Masuk</item>
+        <item>OFF</item>
+        <item>Ijin Dengan Surat Dokter</item>
+        <item>Ijin Tanpa Keterangan</item>
+        <item>Alpha</item>
+        <item>Cuti</item>
+    </string-array>
+
+    <string-array name="nama_toko">
+        <item>Alfamart Pondok Jati 1</item>
+        <item>Alfamart Pondok Jati 2</item>
+        <item>Indomaret Taman Mangu</item>
+        <item>Alfamidy Jalan Kamboja</item>
+        <item>Indomaret Kubang</item>
+        <item>Habibah Mart Pondok Aren</item>
+    </string-array>
+</resources>

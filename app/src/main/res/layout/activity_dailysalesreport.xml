@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip"
+        android:text="@string/lblAcc" />
+
+    <!-- Spinner Dropdown -->
+
+    <TextView
+        android:id="@+id/txt_areasales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip"/>
+
+    <!-- Select Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip"
+        android:text="@string/lblSubAcc" />
+
+    <!-- Spinner Dropdown -->
+    <Spinner
+        android:id="@+id/spinner_namaspg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        />
+
+    <!-- input text Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip"
+        android:text="@string/lblInputtoko" />
+
+    <!-- Spinner Dropdown -->
+
+    <Spinner
+        android:id="@+id/spinner_namatoko"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:entries="@array/nama_toko"/>
+
+    <!-- select Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip"
+        android:text="@string/lblInputabsen" />
+
+    <!-- Spinner Dropdown -->
+
+    <Spinner
+        android:id="@+id/spinner_absensi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:entries="@array/absen_type"/>
+
+    <!-- select Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip"
+        android:text="@string/lblInputtanggal" />
+
+    <!-- edit text for date picker function -->
+
+    <EditText
+        android:id="@+id/edt_date"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#0000"
+        android:hint="Klik disini untuk Pilih tanggal..."
+        android:padding="15dp"
+        android:ems="10"
+        android:textColor="#897"
+        android:inputType="textPersonName"
+        android:textColorHint="#090"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- ini untuk button ke next activity -->
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#00555555"
+            android:text="@string/btnlanjutsatu"
+            android:textStyle="bold" />
+
+        <!-- ini untuk button kembali ke dashboard activity -->
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="#00555555"
+            android:text="@string/btnlanjutdua"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
